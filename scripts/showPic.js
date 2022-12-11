@@ -34,7 +34,7 @@ function fib(num) {
 
 // lambda
 
-var lambda1 = x, y => x + y; 
+var lambda1 = (x, y) => x + y; 
 
 function showPic(whichpic) {
   var source = whichpic.getAttribute("href");
