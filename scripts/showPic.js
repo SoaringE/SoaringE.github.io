@@ -1,4 +1,3 @@
-// classes
 
 class Student {
     constructor(name) {
@@ -21,8 +20,6 @@ class PrimaryStudent extends Student {
     }
 }
 
-// recursion
-
 function fib(num) {
     if (num == 1 || num == 0)
         return 1;
@@ -31,8 +28,6 @@ function fib(num) {
     var result = num1 + num2;
     return result;
 }
-
-// lambda
 
 var lambda1 = (x, y) => x + y; 
 
